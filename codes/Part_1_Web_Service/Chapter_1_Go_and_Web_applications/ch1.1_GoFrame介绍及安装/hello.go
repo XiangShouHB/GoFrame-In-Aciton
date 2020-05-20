@@ -11,6 +11,5 @@ func main() {
 		r.Response.Write("Hello World!")
 	})
 	s.Run() // 默认 80 端口
-	路由规则
 
 }
