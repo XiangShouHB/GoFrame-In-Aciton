@@ -1,7 +1,9 @@
 //File  : object_server01.go
 //Author: duanhaobin
 //Date  : 2020/5/22
-
+/*
+	对象注册
+*/
 package main
 
 import (
@@ -26,6 +28,7 @@ func main() {
 	s := g.Server()
 	// 绑定对象
 	u := new(UserController)
+	// 路由内置变量
 	s.BindObject("/{.struct}/{.method}", u)
 	s.Run()
 }

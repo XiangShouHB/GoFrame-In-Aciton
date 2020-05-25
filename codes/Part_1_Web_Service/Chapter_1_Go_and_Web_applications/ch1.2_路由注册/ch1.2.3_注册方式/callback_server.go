@@ -2,6 +2,9 @@
 //Author: duanhaobin
 //Date  : 2020/5/22
 
+/*
+	函数注册
+*/
 package main
 
 import (
