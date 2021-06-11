@@ -1,5 +1,5 @@
-module GoFrame-In-Action
+module github.com/hbinr/gf-in-action
 
-require github.com/gogf/gf v1.12.3
+go 1.16
 
-go 1.14
+require github.com/gogf/gf v1.16.2
